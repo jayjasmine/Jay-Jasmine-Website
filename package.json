@@ -9,6 +9,10 @@
   "author": "jay jasmine",
   "license": "ISC",
   "dependencies": {
+    "gulp": "^4.0.2",
     "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "gulp-babel-minify": "^0.5.2"
   }
 }

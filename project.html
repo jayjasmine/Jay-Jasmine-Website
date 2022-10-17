@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/css/main.css" />
+    <title>Project Template</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" role="navigation">
+        <a href="/" class="nav-logo">Jay <strong>Jasmine</strong></a>
+        <ul class="nav-menu">
+          <li class="nav-menu__item">
+            <a href="#contact" class="nav-menu__link"> Contact </a>
+          </li>
+
+          <li class="nav-menu__item">
+            <a href="index.html#projects" class="btn"> View Projects </a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <div
+      class="project-banner__bg-image"
+      style="
+        background-image: linear-gradient(to top, #eeeff1, transparent 63%),
+          url('/images/project-block.png');
+      "
+    ></div>
+    <main>
+      <div class="project-banner">
+        <div class="page-banner__content animated">
+          <h1 class="page-banner__title">Zen Spots</h1>
+          <div class="page-banner__tags">ReactJS</div>
+          <div class="page-banner__tags">NodeJS</div>
+          <div> <a
+            href="https://boiling-plains-48350.herokuapp.com/"
+            target="_blank"
+            class="btn"
+            >Live Demo</a
+          >
+          <a
+            href="https://github.com/jayjasmine/zenspots"
+            target="_blank"
+            class="btn btn--github"
+            ><img class="github-logo" src="/images/tech/github.png"
+          /></a>
+        </div>
+        </div>
+       
+      </div>
+      <section class="project-content animated">
+        <h2 class="headline headline--medium-small">Project Overview</h2>
+        <p class="paragraph--light">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, magnam
+          quidem quo sit saepe praesentium, laborum, distinctio commodi aliquid
+          quos nisi. Natus magni cum libero sapiente culpa, temporibus molestiae
+          blanditiis! Porro iusto culpa natus nemo asperiores obcaecati nobis
+          modi corrupti quia dicta vel blanditiis repudiandae esse, ipsum
+          quibusdam exercitationem aliquid eos totam consequuntur. Quam,
+          doloremque? Soluta recusandae laborum nobis quos? Voluptates maxime
+          sunt recusandae possimus nisi aliquam debitis. Distinctio tenetur
+          recusandae, rerum voluptates aut nihil eos perspiciatis odit fugiat in
+          optio assumenda unde illo omnis quod quisquam amet dolores dolorem.
+          Modi, temporibus dignissimos. Enim sapiente accusamus ipsam in
+          temporibus laborum, mollitia est magni quidem architecto iure
+          exercitationem commodi pariatur, odio aliquam obcaecati? Non, fuga?
+          Officiis expedita est corporis temporibus eveniet. Ipsum dolorum
+          excepturi iusto. Beatae quae ipsam officiis. Doloremque voluptatum
+          magni quisquam necessitatibus suscipit dolore reprehenderit laborum
+          similique modi. Ad voluptatibus amet iure odit ipsam, voluptatem
+          similique excepturi! Atque, dolores! Ipsam dicta sunt illo dolores ab
+          illum doloribus nulla veniam dignissimos excepturi blanditiis magnam
+          cum earum optio et doloremque, enim, tenetur ullam molestias qui
+          cumque itaque natus commodi. Nostrum, dolorum. Atque molestias
+          pariatur esse! Atque natus cupiditate vero cumque, earum, qui ipsam
+          impedit, eum dolorum mollitia commodi dicta hic obcaecati illum
+          ducimus laboriosam! Ipsum voluptates officia quae at culpa fugiat.
+          Excepturi suscipit repellendus debitis accusantium eum assumenda
+          magnam reiciendis, unde distinctio animi eligendi officiis et aliquid
+          rem repellat aut. Sint consectetur accusamus fugiat provident velit
+          incidunt ipsam amet corporis rem? Repellendus vel ut expedita tempore
+          saepe nobis laudantium necessitatibus, minus suscipit numquam eaque
+          nulla exercitationem quidem voluptate porro voluptatum dignissimos,
+          ullam repudiandae aperiam quis? Minus similique distinctio veniam.
+          Quaerat, tempore! Sapiente molestias esse voluptate animi eligendi
+          quidem maxime doloremque quaerat labore sequi enim aliquam eum, in cum
+          illum, dolor nulla exercitationem ipsa suscipit veniam excepturi iusto
+          amet! Corrupti, tenetur aperiam!
+        </p>
+      </section>
+      <section id="contact">
+        <div class="contact-form-wrap animated">
+          <h2 class="headline headline--medium">Want to get in touch?</h2>
+          <form
+            class="contact-form"
+            onsubmit="sendEmail(); reset(); return false"
+          >
+            <div class="contact-form__name-wrap">
+              <label for="name">Name</label>
+              <input
+                class="contact-form__text-field"
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
+            <div class="contact-form__email-wrap">
+              <label for="email">Email</label>
+              <input
+                class="contact-form__text-field"
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+            <div class="contact-form__message-wrap">
+              <label for="message">Message</label>
+              <textarea
+                class="contact-form__text-field"
+                name="message"
+                id="message"
+                rows="4"
+                placeholder="Enter your message"
+                required
+              ></textarea>
+            </div>
+            <button class="btn">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="/dist/main.js"></script>
+  </body>
+</html>

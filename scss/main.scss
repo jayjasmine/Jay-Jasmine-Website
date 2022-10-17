@@ -5,9 +5,19 @@
 @import './base/variables';
 @import './base/baseline';
 @import './base/mixins';
+@import './base/utility-classes';
+
 
 @import url('https://rsms.me/inter/inter.css');
 
 // BEM Blocks
 @import './modules/nav';
 @import './modules/btn';
+@import './modules/page-banner';
+@import './modules/headline';
+@import './modules/projects-grid';
+@import './modules/about';
+@import './modules/contact-form';
+@import './modules/paragraph';
+@import './modules/project-page';
+

@@ -10,7 +10,6 @@ a:hover {
 
 html  {
     font-family: 'Inter', sans-serif;
-    color: $white;
 }
 
 
@@ -27,4 +26,14 @@ li {
 
 ul {
   list-style: none;
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
 }

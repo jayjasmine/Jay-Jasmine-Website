@@ -1,0 +1,13 @@
+.paragraph {
+  &--light{
+    margin-bottom: 50px;
+    padding-bottom: 0;
+    opacity: 1;
+    color: #000;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 300;
+    letter-spacing: 0;
+    text-transform: none;
+  }
+}

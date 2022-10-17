@@ -1,1 +1,28 @@
+section {
+  margin: 0 20px 0 20px;
+  @include mobile {
+    margin: 0;
+  }
+}
+
+body {
+  background-color: #eeeff1;
+}
+
+main {
+  position: relative;
+
+  width: 100%;
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  @include mobile {
+    margin: 0 15px 0 15px;
+     max-width: 330px;
+  }
+}
+
+.animated {
+  opacity: 0;
+}
 
